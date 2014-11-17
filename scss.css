@@ -1,0 +1,42 @@
+body	{
+	margin: 0px;
+	background: url(11.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow:hidden;
+}
+
+a       {
+	text-decoration: none;
+}
+.abhilist	{
+	color: white;
+	font-size: 23px;
+	padding-left: 190px;
+	padding-right: 190.5px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	position: relative;
+}
+
+#abhidiv3	{
+	background: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.abhilist:hover	{
+	background: #555
+}
+
+#eid	{
+	opacity: 0.8;
+	font-size: 25px;
+	margin: 0px;
+	text-align: center;
+	background:black; 
+	color: white; 
+	padding-top:20px; 
+	padding-bottom:20px;"
+	padding-left: 300px;
+}

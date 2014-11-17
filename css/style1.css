@@ -1,0 +1,82 @@
+	.aaa	{
+		font-weight: bold;
+		font-size:25px;	
+		opacity: 1;
+		color:black;	
+			
+	}
+
+	
+
+	.follow {
+	text-align:center;
+	float:right;
+      	  margin: 0px;
+	  background: white;
+	  right: -200px;  /* start off behind the scenes */
+	  height: 100%;
+	  position: fixed;
+	  z-index:1;
+		
+	}
+
+	
+	
+
+	
+
+	.icon-close {
+	  cursor: pointer;
+	  margin-bottom:0px;
+	}
+
+
+
+	.icon-follow {
+	  color: white;
+	  cursor: pointer;
+	  float: right;
+	  margin-top:30px;
+	}
+
+
+	
+	
+	#m1:hover{
+		background: #3b5998;
+		transition: all 200ms ease-in-out;
+	}
+	
+	#m2:hover{
+		
+		background:#74b6e8;
+		transition: all 200ms ease-in-out;
+	}
+	#m3:hover{
+		background:#d34836;
+		transition: all 200ms ease-in-out;
+	}
+	#m4:hover{
+		background: #cc181e;
+		transition: all 200ms ease-in-out;
+	}
+	#a1:hover{
+		color:white;
+	}
+	#a2:hover{
+		color:white;
+	}
+	#a3:hover{
+		color:white;
+	}
+	#a4:hover{
+		color:white;
+	}
+	#ic	{
+		color:black;
+		border-bottom:thin solid gray;
+	}
+	#ic:hover{
+		color:white;
+		background:black;	
+	}

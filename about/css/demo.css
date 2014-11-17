@@ -1,0 +1,107 @@
+@import url('normalize.css');
+
+/* General Demo Style */
+body{
+	font-family: Cambria, Georgia, serif;
+	background: #f9f9f9 url(../images/01.jpg);
+	background-size: cover;
+	background-position: center;
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 100%;
+	position: relative;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.container > header{
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1{
+	line-height: 32px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+	color: white;
+	font-size: 75px;
+}
+.container > header h2{
+	font-size: 14px;
+	font-weight: 300;
+	font-style: italic;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #888;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+}
+
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
+
+#devhead	{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	background: rgba(0,51,102,0.5);
+	margin-bottom: 0px;
+	border-radius: 25px 25px 0 0;
+}
+
+#devback	{
+	margin-top: 0px;
+	padding: 20px 0 40px 0;
+	background: rgba(0,0,0,0.5);
+	border-radius: 0 0 25px 25px;
+}
+
+.abhilist	{
+	color: white;
+	font-size: 23px;
+	padding-left: 190px;
+	padding-right: 190.5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+#abhidiv3	{
+	background: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.abhilist:hover	{
+	background: #555
+}
